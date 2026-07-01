@@ -39,7 +39,7 @@
 #
 # #
 # # Optional. You can apply global rescale + offset to all font glyphs.
-# # Param values ar 0..1, where 1 = 100%. 
+# # Param values ar 0..1, where 1 = 100%.
 # #
 # transform:
 #   baseline: 0.2                 # baseline for rescale symmetry. Default value
@@ -91,6 +91,8 @@ transform:
   # offset: -0.025
 
 font:
+  version: "8.0.0"
+
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
   fontname: maki
@@ -106,319 +108,1069 @@ font:
 
 
 glyphs:
-
-  -
-    css: aboveground-rail
-    code: 0xe800
-    uid: 88a1241bcbe45c8e9616fd34d0f68a55
-    search: [railway, streetcar]
-  -
-    css: airfield
+  - css: aerialway
+    code: 0xe841
+    uid: 6ee217b02826b3012f4ac6706e287013
+    search:
+      - aerialway
+  - css: airfield
     code: 0xe801
     uid: ee81e35eef77c7d4d26c75258f028bff
-    search: [airfield]
-  -
-    css: airport
+    search:
+      - airfield
+  - css: airport
     code: 0xe802
     uid: f7440aaf96d590adceeff59b4dcb32d0
-    search: [airport]
-  -
-    css: art-gallery
+    search:
+      - airport
+  - css: alcohol-shop
+    code: 0xe842
+    uid: a53e380140eba70acb275b1979009795
+    search:
+      - alcohol shop
+  - css: american-football
+    code: 0xe843
+    uid: 569f02d28e90f1c231fe9bf1d938549d
+    search:
+      - american football
+  - css: amusement-park
+    code: 0xe844
+    uid: 2f3641ad049b4c1027e44ae11de17941
+    search:
+      - amusement park
+  - css: animal-shelter
+    code: 0xe845
+    uid: a5726473e0bf957b22322d513748fbeb
+    search:
+      - animal shelter
+  - css: aquarium
+    code: 0xe846
+    uid: ebcd7b4465b519988e5393e4f6d4c2b3
+    search:
+      - aquarium
+  - css: arrow
+    code: 0xe847
+    uid: 96fc5e2491e8710e4ad9d51df1b1c53a
+    search:
+      - arrow
+  - css: art-gallery
     code: 0xe803
     uid: 05417ae0104ab18a0fe454358579a987
-    search: [gallery]
-  -
-    css: bar
+    search:
+      - gallery
+  - css: attraction
+    code: 0xe848
+    uid: 5dd7ce13ae512fce14e02e8e46d031ff
+    search:
+      - attraction
+  - css: bakery
+    code: 0xe849
+    uid: 538ea2649f6438c3b79b559a619bdc25
+    search:
+      - bakery
+  - css: bank
+    code: 0xe84a
+    uid: 14bde82ac6ba302554ff85dbf0786ad0
+    search:
+      - bank
+  - css: bank-JP
+    code: 0xe84b
+    uid: 7946d45be09794d607820e6588c6b0d3
+    search:
+      - bank
+  - css: bar
     code: 0xe804
     uid: 5c8822b310f20896a3c55a25b71008a8
-    search: [bar]
-  -
-    css: baseball
+    search:
+      - bar
+  - css: barrier
+    code: 0xe84c
+    uid: 4085f459540af21dcb12d0229f53f3af
+    search:
+      - barrier
+  - css: baseball
     code: 0xe806
     uid: dc4eb27cd8f0cd537206d00dd85c0286
-    search: [baseball]
-  -
-    css: basketball
+    search:
+      - baseball
+  - css: basketball
     code: 0xe807
     uid: 9f5ce0d9f586e3df00449ad6ed6b0bf3
-    search: [basketball]
-  -
-    css: beer
+    search:
+      - basketball
+  - css: bbq
+    code: 0xe84d
+    uid: 7ccda601bb00b94fcf6d135521d7044e
+    search:
+      - bbq
+  - css: beach
+    code: 0xe84e
+    uid: b77cf014e9227c50e0efd8f6077be7e8
+    search:
+      - beach
+  - css: beer
     code: 0xe808
     uid: 77886ff217450e06c8ffb7c88cb41e8b
-    search: [beer]
-  -
-    css: belowground-rail
-    code: 0xe809
-    uid: 3fcff44d055ea3e68ea50aaa7d91947f
-    search: [railway, subway]
-  -
-    css: bicycle
+    search:
+      - beer
+  - css: bicycle
     code: 0xe80a
     uid: aab7e7622e6ee1ed8166fb73f20e8c9a
-    search: [bicycle]
-  -
-    css: bus
+    search:
+      - bicycle
+  - css: bicycle-share
+    code: 0xe84f
+    uid: 685fd75b6c3c5276f5b064c13a4d9369
+    search:
+      - bicycle share
+  - css: blood-bank
+    code: 0xe850
+    uid: 4491cfcfb01d4e221940005307abfea2
+    search:
+      - blood bank
+  - css: bowling-alley
+    code: 0xe851
+    uid: dc3542f482881ba2642cffc2339f4477
+    search:
+      - bowling alley
+  - css: bridge
+    code: 0xe852
+    uid: 3aba6f46a1c20368eacdbc9772d60b61
+    search:
+      - bridge
+  - css: building
+    code: 0xe853
+    uid: c5d03bfe647c0c964381e730861c8a1d
+    search:
+      - building
+  - css: building-alt1
+    code: 0xe854
+    uid: 731d46c7759925b9580258bfa70471e8
+    search:
+      - building alt1
+  - css: bus
     code: 0xe80b
     uid: 2b39f74a074e338a67270567e95142cb
-    search: [bus]
-  -
-    css: cafe
+    search:
+      - bus
+  - css: cafe
     code: 0xe80c
     uid: 492fe0ef4cb41d4e4de8502897685399
-    search: [cafe]
-  -
-    css: campsite
+    search:
+      - cafe
+  - css: campsite
     code: 0xe80d
     uid: 244d3253e3ca5a0d602dd3574050fe93
-    search: [campsite]
-  -
-    css: cemetery
+    search:
+      - campsite
+  - css: car
+    code: 0xe855
+    uid: 9ab8b63f5fbd4faa2277f7ed7f25866b
+    search:
+      - car
+  - css: car-rental
+    code: 0xe856
+    uid: df5109a6e8d8d8d9b06e356392e345ff
+    search:
+      - car rental
+  - css: car-repair
+    code: 0xe857
+    uid: 2ed3a5c1eef3e04966d05fda021b1bda
+    search:
+      - car repair
+  - css: casino
+    code: 0xe858
+    uid: 21ec33a0886a6a4c2bd39f2baa959321
+    search:
+      - casino
+  - css: castle
+    code: 0xe859
+    uid: d2c68075537c2cfc464af63cd6a9119a
+    search:
+      - castle
+  - css: castle-JP
+    code: 0xe85a
+    uid: 5a46d4f2a8732f74baa243c20dca7df6
+    search:
+      - castle
+  - css: caution
+    code: 0xe85b
+    uid: 1d55f4ec1d29564a0b58245b316ba090
+    search:
+      - caution
+  - css: cemetery
     code: 0xe80e
     uid: cc50849b33fcede3d861f5a94a22969f
-    search: [cemetery]
-  -
-    css: cinema
+    search:
+      - cemetery
+  - css: cemetery-JP
+    code: 0xe85c
+    uid: 6883a89fa9b4a79bfd18f4e0a2f05937
+    search:
+      - cemetery
+  - css: charging-station
+    code: 0xe85d
+    uid: 6fb3a022508a37dbaf870f93398b9f66
+    search:
+      - charging station
+  - css: cinema
     code: 0xe80f
     uid: 3fe687c833fa36452029b6d57e9149bf
-    search: [cinema]
-  -
-    css: college
+    search:
+      - cinema
+  - css: circle
+    code: 0xe85e
+    uid: f9eb02c8bc3881629ed4966b86b60503
+    search:
+      - circle
+  - css: circle-stroked
+    code: 0xe85f
+    uid: 82faf499489c76c9eac0e2cdcbd547c1
+    search:
+      - circle stroked
+  - css: city
+    code: 0xe860
+    uid: 93ca27811efa3fa1a804264d502e50c3
+    search:
+      - city
+  - css: clothing-store
+    code: 0xe861
+    uid: 02e6489e6546143739d7a1eaa333c72a
+    search:
+      - clothing store
+  - css: college
     code: 0xe810
     uid: 020dbfb0a5a4a25775bc751e5891e161
-    search: [college]
-  -
-    css: commerical-building
-    code: 0xe811
-    uid: fc455b9530e0b37facc289f42a120fdd
-    search: [building]
-  -
-    css: credit-card
-    code: 0xe812
-    uid: 5f1e8c36dffb553902e0e5c0c71faf6b
-    search: [card]
-  -
-    css: cricket
+    search:
+      - college
+  - css: college-JP
+    code: 0xe862
+    uid: ef615ce8b0b0feba286ae03ee843c78c
+    search:
+      - college
+  - css: commercial
+    code: 0xe863
+    uid: 947b9817e2e9ce3967f9df8d70af6559
+    search:
+      - commercial
+  - css: communications-tower
+    code: 0xe864
+    uid: b2486972e20c07ecc96cb96066f746e8
+    search:
+      - communications tower
+  - css: confectionery
+    code: 0xe865
+    uid: ad0e0fb5681695bd7b19545d54763c21
+    search:
+      - confectionery
+  - css: construction
+    code: 0xe866
+    uid: 3ef2041effac08c29f429bd8039ce82e
+    search:
+      - construction
+  - css: convenience
+    code: 0xe867
+    uid: 7a00bb9ade97b94fc1ff74453adf5c19
+    search:
+      - convenience
+  - css: cricket
     code: 0xe813
     uid: 3dfa88388f5e84f8e8fdc4f6320c8b44
-    search: [cricket]
-  -
-    css: embassy
+    search:
+      - cricket
+  - css: cross
+    code: 0xe868
+    uid: 71a724b6fe7f5fe2468d129822e80e5a
+    search:
+      - cross
+  - css: dam
+    code: 0xe869
+    uid: 7c5e5ae25a1f681173b206060e7c29a0
+    search:
+      - dam
+  - css: danger
+    code: 0xe86a
+    uid: 8f247f138bb17e645a138db56bc9a95e
+    search:
+      - danger
+  - css: defibrillator
+    code: 0xe86b
+    uid: fed39b55ac1f54a052199966f486ae04
+    search:
+      - defibrillator
+  - css: dentist
+    code: 0xe86c
+    uid: 86a29efe7ca6bf92b3c827c4d8b894ac
+    search:
+      - dentist
+  - css: diamond
+    code: 0xe86d
+    uid: 3b7c18ad1a0b011200fc02151e1daddc
+    search:
+      - diamond
+  - css: doctor
+    code: 0xe86e
+    uid: 00c939971e59dacc8aa5844cccae2a4e
+    search:
+      - doctor
+  - css: dog-park
+    code: 0xe86f
+    uid: 812c8b2e2682c83cd6782d82d76f9af7
+    search:
+      - dog park
+  - css: drinking-water
+    code: 0xe870
+    uid: a561a6f97565a83e13de63a549523ee9
+    search:
+      - drinking water
+  - css: elevator
+    code: 0xe871
+    uid: f34f5f7a001347914be73235cd157be0
+    search:
+      - elevator
+  - css: embassy
     code: 0xe814
     uid: aec75ed0b4851c282824143392dde047
-    search: [embassy]
-  -
-    css: fast-food
+    search:
+      - embassy
+  - css: emergency-phone
+    code: 0xe872
+    uid: 97f662bd4925bbad4ab5ceb548262693
+    search:
+      - emergency phone
+  - css: entrance
+    code: 0xe873
+    uid: 13f6d83b9eeb46574a137c9dd16edb4b
+    search:
+      - entrance
+  - css: entrance-alt1
+    code: 0xe874
+    uid: d3ee6b4c208f97cd3ee24587fac48be1
+    search:
+      - entrance alt1
+  - css: farm
+    code: 0xe875
+    uid: 4802fdeaad63dceb91bee7f0a2e99629
+    search:
+      - farm
+  - css: fast-food
     code: 0xe815
     uid: d27bcf5c8638e4078aaadae1d49b6909
-    search: [fastfood, hamburger]
-  -
-    css: ferry
+    search:
+      - fastfood
+      - hamburger
+  - css: fence
+    code: 0xe876
+    uid: a190339db9e7b85d24f74cffd1699b59
+    search:
+      - fence
+  - css: ferry
     code: 0xe816
     uid: 6d3728ea0e5678ab9cf6840c4a040e34
-    search: [ferry]
-  -
-    css: fire-station
+    search:
+      - ferry
+  - css: ferry-JP
+    code: 0xe877
+    uid: a00d89c52eb0c7800ccb74e9919e2e85
+    search:
+      - ferry
+  - css: fire-station
     code: 0xe817
     uid: a9d3392264236bb9fe4d60a130c662d1
-    search: [fire station]
-  -
-    css: football
-    code: 0xe818
-    uid: 429c0a4a7c5aba2f8a894f98b48529b3
-    search: [football]
-  -
-    css: fuel
+    search:
+      - fire station
+  - css: fire-station-JP
+    code: 0xe878
+    uid: 5b4e792b1d2e49b35e1dc1d933e1b61b
+    search:
+      - fire station
+  - css: fitness-centre
+    code: 0xe879
+    uid: 694fd175de3886ceaef24d69b5a83cda
+    search:
+      - fitness centre
+  - css: florist
+    code: 0xe87a
+    uid: eb3413ac3f54e0f13b9293b11b1a3082
+    search:
+      - florist
+  - css: fuel
     code: 0xe819
     uid: 63af7ffdab0d3546333634c63554bb82
-    search: [fuel]
-  -
-    css: garden
+    search:
+      - fuel
+  - css: furniture
+    code: 0xe87b
+    uid: 64693dbf24a66d10c958cfe255e609f4
+    search:
+      - furniture
+  - css: gaming
+    code: 0xe87c
+    uid: 198dc1f26b091b7adbe96145509ec6bc
+    search:
+      - gaming
+  - css: garden
     code: 0xe81a
     uid: d06b13f30947afbbdae6977413144183
-    search: [garden]
-  -
-    css: giraffe
-    code: 0xe81b
-    uid: 8815bdcacab2495dd436f029e78a15d7
-    search: [giraffe]
-  -
-    css: golf
+    search:
+      - garden
+  - css: garden-centre
+    code: 0xe87d
+    uid: 462f0e22e6459e46eb529346a2252164
+    search:
+      - garden centre
+  - css: gate
+    code: 0xe87e
+    uid: 41d54d2e9c8fa37531f1d980d5ceda86
+    search:
+      - gate
+  - css: gift
+    code: 0xe87f
+    uid: 85ad1051928da5e33d6444d7fdcaf365
+    search:
+      - gift
+  - css: globe
+    code: 0xe880
+    uid: 685424e03766cea9aade0b31bc5087e1
+    search:
+      - globe
+  - css: golf
     code: 0xe81c
     uid: 93f72325e13529f1673ae0c3be4b7d22
-    search: [golf]
-  -
-    css: grocery-store
-    code: 0xe81e
-    uid: 00341f8df1496285c31db5988db1d8b5
-    search: [grocery]
-  -
-    css: harbor
+    search:
+      - golf
+  - css: grocery
+    code: 0xe881
+    uid: 5630190362c0f06e313167f7d42c39b5
+    search:
+      - grocery
+  - css: hairdresser
+    code: 0xe882
+    uid: 0c52a99e57118bccdbd26c93c94920d1
+    search:
+      - hairdresser
+  - css: harbor
     code: 0xe81f
     uid: 484b90ec34c04b0db020143526d3c21a
-    search: [harbor]
-  -
-    css: heliport
+    search:
+      - harbor
+  - css: hardware
+    code: 0xe883
+    uid: 7c949dd8c08956e572f6341cef9b0e8f
+    search:
+      - hardware
+  - css: heart
+    code: 0xe884
+    uid: 081437821f1eddce10a0537c36c5cb4a
+    search:
+      - heart
+  - css: heliport
     code: 0xe820
     uid: 6dddcfc03d1eaa1bfee628ab291072b6
-    search: [heliport]
-  -
-    css: hospital
+    search:
+      - heliport
+  - css: highway-rest-area
+    code: 0xe885
+    uid: 221cb922b251349a0c437417b12fc91c
+    search:
+      - highway rest area
+  - css: historic
+    code: 0xe886
+    uid: 9f689d6b53e848bb7b4fbc2dbc5b1972
+    search:
+      - historic
+  - css: home
+    code: 0xe887
+    uid: df1ec487fbdca4c4fb84f82c6abc6339
+    search:
+      - home
+  - css: horse-riding
+    code: 0xe888
+    uid: 9b1ac34f16987ff29a5ee00c71889df9
+    search:
+      - horse riding
+  - css: hospital
     code: 0xe821
     uid: f43389fa3f5a5b152ed0231fe7bb18a7
-    search: [hospital]
-  -
-    css: industrial-building
-    code: 0xe822
-    uid: 134184de1e4f1dc3d40e0d93bb1ef15e
-    search: [building, industrial]
-  -
-    css: library
+    search:
+      - hospital
+  - css: hospital-JP
+    code: 0xe889
+    uid: 1dfc07b8cb941f9a0c231556453cb61c
+    search:
+      - hospital
+  - css: hot-spring
+    code: 0xe88a
+    uid: 651c0fa10de5429e479e9f0210ba05b2
+    search:
+      - hot spring
+  - css: ice-cream
+    code: 0xe88b
+    uid: 284de984d795d5927c6c6037d547eec9
+    search:
+      - ice cream
+  - css: industry
+    code: 0xe88c
+    uid: e2a8a563f21bdda8fcba18f1561204be
+    search:
+      - industry
+  - css: information
+    code: 0xe88d
+    uid: 4c167194280eb69b950a6e0ac35caa20
+    search:
+      - information
+  - css: jewelry-store
+    code: 0xe88e
+    uid: 6040496f25249600e30fe19eda49ad86
+    search:
+      - jewelry store
+  - css: karaoke
+    code: 0xe88f
+    uid: f7246cd1084db3f4c16b0f82bd38f33a
+    search:
+      - karaoke
+  - css: landmark
+    code: 0xe890
+    uid: 03026860caee8e2b1ab8145bb142055c
+    search:
+      - landmark
+  - css: landmark-JP
+    code: 0xe891
+    uid: 4c49db0c520e34fbe66afb07e534291b
+    search:
+      - landmark
+  - css: landuse
+    code: 0xe892
+    uid: b62864990e187905614f6d16c8c2877e
+    search:
+      - landuse
+  - css: laundry
+    code: 0xe893
+    uid: 54f4919ce899db598ecc69d9e93f14a3
+    search:
+      - laundry
+  - css: library
     code: 0xe823
     uid: 56a766cedf13005162899b02cf9546b9
-    search: [library]
-  -
-    css: lodging
+    search:
+      - library
+  - css: lift-gate
+    code: 0xe894
+    uid: 1a7bb9cc00d3b401627b14e265a5813f
+    search:
+      - lift gate
+  - css: lighthouse
+    code: 0xe895
+    uid: 10cb7f0a56b96de1a06dbe0dc4be4023
+    search:
+      - lighthouse
+  - css: lighthouse-JP
+    code: 0xe896
+    uid: f1b11ec82083abc3c21a105f1acc8886
+    search:
+      - lighthouse
+  - css: lodging
     code: 0xe824
     uid: de3978220965d0d1b1cbe671a5a57f9a
-    search: [lodging]
-  -
-    css: london-underground
-    code: 0xe825
-    uid: 0b9e9d7b951b0acaac25b9d7ed258120
-    search: [underground]
-  -
-    css: minefield
-    code: 0xe826
-    uid: 3e98530afcd866a9d607f8be2b5aa159
-    search: [minefield]
-  -
-    css: monument
+    search:
+      - lodging
+  - css: logging
+    code: 0xe897
+    uid: 5ab99983c13cc39666e1e38ad3930b73
+    search:
+      - logging
+  - css: marker
+    code: 0xe898
+    uid: ef6c976da7c1ca6675620d2c7f7934b3
+    search:
+      - marker
+  - css: marker-stroked
+    code: 0xe899
+    uid: 546e0d86eef610644e3c4241269c1f28
+    search:
+      - marker stroked
+  - css: mobile-phone
+    code: 0xe89a
+    uid: c731eb2d5467a53dd43a7241ba1557f4
+    search:
+      - mobile phone
+  - css: monument
     code: 0xe827
     uid: 19d9ceb791d76257545e308954808fc1
-    search: [monument]
-  -
-    css: museum
+    search:
+      - monument
+  - css: monument-JP
+    code: 0xe89b
+    uid: 90dd020215f398329d3552fd25aa4a6a
+    search:
+      - monument
+  - css: mountain
+    code: 0xe89c
+    uid: 0f45eb1ef1af98fb1fd5cf36d175d1ba
+    search:
+      - mountain
+  - css: museum
     code: 0xe828
     uid: 192955900fa17f5677c4fdf2b3f01be7
-    search: [museum]
-  -
-    css: pharmacy
+    search:
+      - museum
+  - css: music
+    code: 0xe89d
+    uid: 3de08e72a77b13648ac1d880decc13b7
+    search:
+      - music
+  - css: natural
+    code: 0xe89e
+    uid: 269261c49c1e7c051b327f6cbc7d2cc3
+    search:
+      - natural
+  - css: observation-tower
+    code: 0xe89f
+    uid: d3a35f0af8952747cafacb47134309e7
+    search:
+      - observation tower
+  - css: optician
+    code: 0xe8a0
+    uid: 74141c7cc65b39d141c17738ef4e2e55
+    search:
+      - optician
+  - css: paint
+    code: 0xe8a1
+    uid: 15273f8a4324d186897a2eb609394b10
+    search:
+      - paint
+  - css: park
+    code: 0xe8a2
+    uid: 737a5641fc6053e9210aacd5f240ac32
+    search:
+      - park
+  - css: park-alt1
+    code: 0xe8a3
+    uid: d51e4aecc9e5a0a9bba67f6c0de28205
+    search:
+      - park alt1
+  - css: parking
+    code: 0xe8a4
+    uid: 6cf0b8b2a9681d7c27700f73ef22e013
+    search:
+      - parking
+  - css: parking-garage
+    code: 0xe8a5
+    uid: 4debb709a3b0bdb87e1a4927b1f1fa15
+    search:
+      - parking garage
+  - css: parking-paid
+    code: 0xe8a6
+    uid: 88198b9b3b4f7a0cd45fbfefe1493eb3
+    search:
+      - parking paid
+  - css: pharmacy
     code: 0xe829
     uid: ee10c11395b5660a1e10a19cd66ea654
-    search: [pharmacy]
-  -
-    css: pitch
+    search:
+      - pharmacy
+  - css: picnic-site
+    code: 0xe8a7
+    uid: 255e7f16a8c16219111e83696bc27680
+    search:
+      - picnic site
+  - css: pitch
     code: 0xe82a
     uid: 5040789d726273a910ac5b59e9d8227a
-    search: [pitch]
-  -
-    css: police
+    search:
+      - pitch
+  - css: place-of-worship
+    code: 0xe8a8
+    uid: 99f73ea52b6ae81837d998f1883ecbd5
+    search:
+      - place of worship
+  - css: playground
+    code: 0xe8a9
+    uid: 994186e4d043138e1c3d3d963342e996
+    search:
+      - playground
+  - css: police
     code: 0xe82b
     uid: 2e7c67db76849147d16a6763d07a03a9
-    search: [police]
-  -
-    css: post
+    search:
+      - police
+  - css: police-JP
+    code: 0xe8aa
+    uid: 4f1c7ddd5282d25b6454de85432ca5f1
+    search:
+      - police
+  - css: post
     code: 0xe82c
     uid: 3333e460aa2cf5a69989c42c334a4194
-    search: [post]
-  -
-    css: prison
+    search:
+      - post
+  - css: post-JP
+    code: 0xe8ab
+    uid: 2ad5774ba00a881f6fd044b846ca4d07
+    search:
+      - post
+  - css: prison
     code: 0xe82d
     uid: 0151454c6a8abec62b1b8810aca0af6a
-    search: [prison]
-  -
-    css: rail
+    search:
+      - prison
+  - css: racetrack
+    code: 0xe8ac
+    uid: 8e4f6aca739effa9198dc1f6fb596121
+    search:
+      - racetrack
+  - css: racetrack-boat
+    code: 0xe8ad
+    uid: 195220b2367be1f4293c1cabece0a613
+    search:
+      - racetrack boat
+  - css: racetrack-cycling
+    code: 0xe8ae
+    uid: f4029fea5a5c8bcaa076cf12d4bbca3f
+    search:
+      - racetrack cycling
+  - css: racetrack-horse
+    code: 0xe8af
+    uid: c8d7881d6f18a11a94210d72813ed111
+    search:
+      - racetrack horse
+  - css: rail
     code: 0xe82e
     uid: 70276caa975cb1354bc375ca334f6b4b
-    search: [rail]
-  -
-    css: religious-christian
+    search:
+      - rail
+  - css: rail-light
+    code: 0xe8b0
+    uid: e54c25dce9f26c6e2cf54b671a975f61
+    search:
+      - rail light
+  - css: rail-metro
+    code: 0xe8b1
+    uid: c5780b8af2fd776d37d8d3b3f60e08f4
+    search:
+      - rail metro
+  - css: ranger-station
+    code: 0xe8b2
+    uid: 05416c2e6a9594d35e282d2146529c71
+    search:
+      - ranger station
+  - css: recycling
+    code: 0xe8b3
+    uid: de91319d82aef8023e59941ee91c47d5
+    search:
+      - recycling
+  - css: religious-buddhist
+    code: 0xe8b4
+    uid: 3e3ca780fad6a7dcd88ee4734f66da50
+    search:
+      - religious buddhist
+  - css: religious-christian
     code: 0xe82f
     uid: 7f8b6c0519d85119a6f41fa3c5794806
-    search: [religious,christian]
-  -
-    css: religious-islam
-    code: 0xe830
-    uid: 2e99947836a643225daf0336e4814bb3
-    search: [religious,islam]
-  -
-    css: religious-jewish
+    search:
+      - religious
+      - christian
+  - css: religious-jewish
     code: 0xe831
     uid: 5604bbb863d0ea7b38dc331705aedb13
-    search: [religious,jewish]
-  -
-    css: restaurant
+    search:
+      - religious
+      - jewish
+  - css: religious-muslim
+    code: 0xe8b5
+    uid: bb608b8e1eebe01ff3115fba9e102cf8
+    search:
+      - religious muslim
+  - css: religious-shinto
+    code: 0xe8b6
+    uid: 46036ba306ffcb0be2fe400a3ddcbc71
+    search:
+      - religious shinto
+  - css: residential-community
+    code: 0xe8b7
+    uid: 925ac053fa80e308f46b9954800f106f
+    search:
+      - residential community
+  - css: restaurant
     code: 0xe832
     uid: 5cc58545bb38c912940470480d3df145
-    search: [restaurant]
-  -
-    css: roadblock
+    search:
+      - restaurant
+  - css: restaurant-bbq
+    code: 0xe8b8
+    uid: bf1aa074af5a812aaeded46b194d1f9d
+    search:
+      - restaurant bbq
+  - css: restaurant-noodle
+    code: 0xe8b9
+    uid: da47c137d2e115eb1f64607abac8b2d4
+    search:
+      - restaurant noodle
+  - css: restaurant-pizza
+    code: 0xe8ba
+    uid: b25aa13c98ceafa4d9b7d72f66de4b8f
+    search:
+      - restaurant pizza
+  - css: restaurant-seafood
+    code: 0xe8bb
+    uid: 815f410eb69f8df313c75c31bc3a2bb9
+    search:
+      - restaurant seafood
+  - css: restaurant-sushi
+    code: 0xe8bc
+    uid: 839c65bd076091dd929d94c40d1edec1
+    search:
+      - restaurant sushi
+  - css: road-accident
+    code: 0xe8bd
+    uid: e73d5d5c8deb04286ca7a8611af18618
+    search:
+      - road accident
+  - css: roadblock
     code: 0xe833
     uid: 40664a3e8916bfdcc5fb5655d469723e
-    search: [roadblock]
-  -
-    css: school
+    search:
+      - roadblock
+  - css: rocket
+    code: 0xe8be
+    uid: 413531aef7caf23d358f3ea2f0169c4a
+    search:
+      - rocket
+  - css: school
     code: 0xe834
     uid: 653750436fc99eeb29ccd487e6a5bfa6
-    search: [school, people, children, running]
-  -
-    css: shop
+    search:
+      - school
+      - people
+      - children
+      - running
+  - css: school-JP
+    code: 0xe8bf
+    uid: 54b1ddb2a5540de5a0731f556d7d3715
+    search:
+      - school
+  - css: scooter
+    code: 0xe8c0
+    uid: ad56c9edac67608c62e020ad16e03314
+    search:
+      - scooter
+  - css: shelter
+    code: 0xe8c1
+    uid: 7b9b1051e7ef1cec1a5746e74a271ef6
+    search:
+      - shelter
+  - css: shoe
+    code: 0xe8c2
+    uid: 63a12fc87541007d345fa51c235e74b2
+    search:
+      - shoe
+  - css: shop
     code: 0xe835
     uid: 83a806d41893e8bc6fac601669c76cd2
-    search: [shop]
-  -
-    css: skiing
+    search:
+      - shop
+  - css: skateboard
+    code: 0xe8c3
+    uid: 2f1f882dbfd0ef7456e691acdddafcac
+    search:
+      - skateboard
+  - css: skiing
     code: 0xe836
     uid: ebabd8ff4b67bdbba7660952c30813ca
-    search: [skiing]
-  -
-    css: soccer
+    search:
+      - skiing
+  - css: slaughterhouse
+    code: 0xe8c4
+    uid: 2a882afbf5cd856603b41b86870cedd3
+    search:
+      - slaughterhouse
+  - css: slipway
+    code: 0xe8c5
+    uid: 742526471f1314f425918f5b859e5961
+    search:
+      - slipway
+  - css: snowmobile
+    code: 0xe8c6
+    uid: 849906097aadfbd204228f24471f04e5
+    search:
+      - snowmobile
+  - css: soccer
     code: 0xe837
     uid: d8813acae9d35ada76fda399a6000587
-    search: [soccer]
-  -
-    css: swimming
+    search:
+      - soccer
+  - css: square
+    code: 0xe8c7
+    uid: b2a54f484498ee205629bad031e7fb34
+    search:
+      - square
+  - css: square-stroked
+    code: 0xe8c8
+    uid: 400fdeeb17c1b5eb8bff301d7db1d3b5
+    search:
+      - square stroked
+  - css: stadium
+    code: 0xe8c9
+    uid: f9329f51fe43075e708501bcd0f1e612
+    search:
+      - stadium
+  - css: star
+    code: 0xe8ca
+    uid: 112b7e5a839ce18676e89d6da114ecd6
+    search:
+      - star
+  - css: star-stroked
+    code: 0xe8cb
+    uid: c699534ef16b86b48724c913e4158d91
+    search:
+      - star stroked
+  - css: suitcase
+    code: 0xe8cc
+    uid: a4317e10b60c8d34418b5e8574de0878
+    search:
+      - suitcase
+  - css: swimming
     code: 0xe838
     uid: d368c9b110be1daa21f992afca084b8c
-    search: [swimming]
-  -
-    css: tennis
+    search:
+      - swimming
+  - css: table-tennis
+    code: 0xe8cd
+    uid: 148a4e4ebacbe1bf9829eec16a5fe8c2
+    search:
+      - table tennis
+  - css: teahouse
+    code: 0xe8ce
+    uid: 798c60962889ca3e0787ff114085b1fe
+    search:
+      - teahouse
+  - css: telephone
+    code: 0xe8cf
+    uid: 85401a3dc4ad9864acdfab4a93174f38
+    search:
+      - telephone
+  - css: tennis
     code: 0xe839
     uid: 8a4eb4f98d8e0f3686a741c952b03c08
-    search: [tennis]
-  -
-    css: theatre
+    search:
+      - tennis
+  - css: theatre
     code: 0xe83a
     uid: 5f89d009e91c94c7c9be2f8711d7a2eb
-    search: [theatre]
-  -
-    css: toilet
+    search:
+      - theatre
+  - css: toilet
     code: 0xe83b
     uid: 0d0a49f05cb202227853f85ce5f63cdc
-    search: [toilet]
-  -
-    css: town-hall
+    search:
+      - toilet
+  - css: toll
+    code: 0xe8d0
+    uid: a04e8f926c16d943cb99f0ea3ba679ff
+    search:
+      - toll
+  - css: town
+    code: 0xe8d1
+    uid: c4c70c46c462822c8e699ae204e396ef
+    search:
+      - town
+  - css: town-hall
     code: 0xe83c
     uid: 4c8822c296f8b46e1b0a1c0f627be146
-    search: [town hall, bank, university, institution, temple, columns]
-  -
-    css: trash
-    code: 0xe83d
-    uid: cad619ef78a5500c1e5b3d021d2fdd65
-    search: [trash]
-  -
-    css: tree-1
-    code: 0xe83e
-    uid: 878dccd7b810bc231a132d86a3028afe
-    search: [tree]
-  -
-    css: tree-2
-    code: 0xe83f
-    uid: 35b65a48339004a947a1dea3092e1daa
-    search: [tree]
-  -
-    css: warehouse
+    search:
+      - town hall
+      - bank
+      - university
+      - institution
+      - temple
+      - columns
+  - css: triangle
+    code: 0xe8d2
+    uid: 8e960c032892e4467ae953d2b5dde1ba
+    search:
+      - triangle
+  - css: triangle-stroked
+    code: 0xe8d3
+    uid: e78ce0bf888da0e29070243a83d596f8
+    search:
+      - triangle stroked
+  - css: tunnel
+    code: 0xe8d4
+    uid: 65424f27edd321fe91064038c887d909
+    search:
+      - tunnel
+  - css: veterinary
+    code: 0xe8d5
+    uid: 034390e98030c4aa494b7d98a334d8e2
+    search:
+      - veterinary
+  - css: viewpoint
+    code: 0xe8d6
+    uid: e7cc33920e9a58fc81eef25aa690e3aa
+    search:
+      - viewpoint
+  - css: village
+    code: 0xe8d7
+    uid: c460b2aa507f232bd0800aa5c551cdce
+    search:
+      - village
+  - css: volcano
+    code: 0xe8d8
+    uid: fcddfd1265cdf40e7b1d920b8a397fe8
+    search:
+      - volcano
+  - css: volleyball
+    code: 0xe8d9
+    uid: 750c44a5c81343e983ea94cab4bdf0d0
+    search:
+      - volleyball
+  - css: warehouse
     code: 0xe840
     uid: bc6ef9c6531c54e927e9dc18e45524b2
-    search: [warehouse]
+    search:
+      - warehouse
+  - css: waste-basket
+    code: 0xe8da
+    uid: 0bccfb6552d55ae141b5e53d254af21e
+    search:
+      - waste basket
+  - css: watch
+    code: 0xe8db
+    uid: 4f4b7a6549d4eea11f4937a7b8d25c11
+    search:
+      - watch
+  - css: water
+    code: 0xe8dc
+    uid: a95feaa0a89f7dd497ab94741640b17c
+    search:
+      - water
+  - css: waterfall
+    code: 0xe8dd
+    uid: b78a4dfc37567c5602fa5b6076061008
+    search:
+      - waterfall
+  - css: watermill
+    code: 0xe8de
+    uid: e0283c37fdaa86e0217058389fe4933c
+    search:
+      - watermill
+  - css: wetland
+    code: 0xe8df
+    uid: db02ad0f6f5633fdbe2fc2af76387a30
+    search:
+      - wetland
+  - css: wheelchair
+    code: 0xe8e0
+    uid: e8cfbd710bf32e8c644427f4df94d2aa
+    search:
+      - wheelchair
+  - css: windmill
+    code: 0xe8e1
+    uid: 652628d3b0cc75a11baec196766c1ea5
+    search:
+      - windmill
+  - css: zoo
+    code: 0xe8e2
+    uid: 9d3e8226ada33c018c71e9e657969b67
+    search:
+      - zoo
