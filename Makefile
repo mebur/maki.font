@@ -20,7 +20,7 @@ dump:
 	rm -rf ./src/svg/
 	mkdir ./src/svg/
 	cp ./src/svg_orig/* ./src/svg/
-	${BIN}/svgo --config `pwd`/dump.svgo.yml -f ./src/svg
+	${BIN}/svgo --config `pwd`/dump.svgo.mjs -f ./src/svg
 
 
 dist: font html
@@ -63,7 +63,7 @@ gh-pages:
 		git commit -q -m 'refreshed gh-pages'
 	cd ${TMP_PATH} && \
 		git remote add remote ${REMOTE_REPO} && \
-		git push --force remote +master:gh-pages 
+		git push --force remote +master:gh-pages
 	rm -rf ${TMP_PATH}
 
 

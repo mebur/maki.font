@@ -1,36 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="1000"
-   height="1000"
-   id="svg6584">
-  <defs
-     id="defs6586" />
-  <metadata
-     id="metadata6589">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="scale(10) translate(0,-952.362)"
-     id="layer1">
-    <path
-       d="m 29.166666,971.11206 c -1.154166,0 -2.083333,0.92917 -2.083333,2.08333 0,1.15417 0.929167,2.08333 2.083333,2.08333 l 16.666667,0 -2.083333,12.49999 0,4.16667 -29.166667,8.33332 0,8.3333 29.166667,0 0,16.6666 -10.416667,4.1667 0,4.1666 33.333334,0 0,-4.1666 -10.416667,-4.1667 0,-8.2029 0,-8.4637 29.166667,0 0,-8.3333 -29.166667,-8.33332 0,-4.16667 -2.083333,-12.49999 16.666666,0 c 1.154167,0 2.083334,-0.92916 2.083334,-2.08333 0,-1.15416 -0.929167,-2.08333 -2.083334,-2.08333 z"
-       id="path6154"
-       style="fill:#000000;fill-opacity:1;stroke:none;display:inline" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="airfield" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <path id="path5" d="M6.8182,0.6818H4.7727&#xA;&#x9;C4.0909,0.6818,4.0909,0,4.7727,0h5.4545c0.6818,0,0.6818,0.6818,0,0.6818H8.1818c0,0,0.8182,0.5909,0.8182,1.9545V4h6v2L9,8l-0.5,5&#xA;&#x9;l2.5,1.3182V15H4v-0.6818L6.5,13L6,8L0,6V4h6V2.6364C6,1.2727,6.8182,0.6818,6.8182,0.6818z"/>
 </svg>
